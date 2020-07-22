@@ -1,7 +1,7 @@
 # Blockchain
 Blockchain Implementation in Python
 
-I did this project using the above sources, with my version on activestates implementation of blockchain.
+I did this project using the sources referenced at the bottom, with my version on activestates implementation of blockchain .
 I used Geek for Geeks and blockgeeks article to understand the technology.
 
 Here I will be explaining blockchain to the best of my ability. 
