@@ -26,11 +26,12 @@ The Proof Of Work Algorithm was the harder part to understand. I shall try to ex
 All the transactions in the new block are then validated and the new block is then added to the blockchain. Note that, the block will get added to the chain which has the longest block height(see blockchain forks to understand how multiple chains can exist at a point of time). Miners(special computers on the network) perform computation work in solving a complex mathematical problem to add the block to the network, hence named, Proof-of-Work. With time, the mathematical problem becomes more complex. "  <- https://www.geeksforgeeks.org/proof-of-work-pow-consensus/
 
 Coding Proof Of Work:
-def proof_of_work(self, block):
-        """
-        Function that tries different values of nonce to get a hash
+"""
+        This Function that tries different values of nonce to get a hash
         that satisfies our difficulty criteria.
         """
+
+def proof_of_work(self, block):
         block.nonce = 0
 
         computed_hash = block.compute_hash()
